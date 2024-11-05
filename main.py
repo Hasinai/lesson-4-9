@@ -48,7 +48,7 @@ if __name__ == "__main__":
 	library.remove_book(1)
     
     #image processing
-	mono = Monochrome("novogrodovka.jpg")
+	mono = Monochrome("start.jpg")
 	mono.apply_monochrome(10)
 	mono.save_image("stop.jpg")
 
